@@ -1,0 +1,18 @@
+{
+  "name": "dependencies-scraper",
+  "version": "0.0.1",
+  "description": "Simple web scraper listing assets for each page within a domain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Gavrilov",
+  "repository": "http://github.com/danielgavrilov/dependencies-scraper.git",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.8.0",
+    "q": "^1.3.0",
+    "request": "^2.55.0"
+  }
+}
